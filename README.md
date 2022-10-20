@@ -22,12 +22,12 @@ flowchart LR
 gantt
 dateFormat  YYYY-MM-DD
 title Tareas básicas para el desarrollo del ACTUT
-excludes weekdays 2014-01-10
+excludes weekdays 2022-10-21
 
-section A section
-Inicio                :done,    des1, 2022-10-20, 2022-10-31
-Esboso incial         :active,  des2, 2022-10-09, 3d
-Comunicación PC-ORC   :         des3, after des2, 5d
-Comunicación PC-GEN   :         des4, after des3, 5d
-Comunicación PC-DuT   :         des5, after des4, 5d
+section Estado del arte
+Inicio                :done,    des1, 2022-10-20, 2022-10-21
+Esboso incial         :active,  des2, 2022-10-21, 10d
+Comunicación PC-ORC   :         des3, after des2, 15d
+Comunicación PC-GEN   :         des4, after des3, 25d
+Comunicación PC-DuT   :         des5, after des4, 35d
 ```

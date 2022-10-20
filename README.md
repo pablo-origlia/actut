@@ -2,7 +2,7 @@
 
 ## Esquema básico
 
-La configuración de setup del sistema está determinado por el siguiente esquema, puede dividirse en dos grupos, la parte de control que será articulada por la `PC` y la parte de TEST que está formada por el dispositivo bajo prueba `DUT`, el generador de señales `GEN` encargado de la exitación y el osciloscopio `ORC` para el registro de las mediciones y verificacion.
+La configuración del sistema está determinado por el siguiente esquema, puede dividirse en dos grupos, la parte de control que será articulada por la `PC` vinculada a todos los demás dispositivos y la parte de TEST propiamente ducha que está formada por el dispositivo bajo prueba `DUT`, el generador de señales `GEN` encargado de la exitación y el osciloscopio `ORC` para el registro de las mediciones y verificacion.
 
 ```mermaid
 flowchart LR
